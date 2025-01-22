@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "backend of youtubeclone",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Manish Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
